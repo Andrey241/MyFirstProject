@@ -1,0 +1,38 @@
+.content-main {
+  background: url(../images/bg-header.jpg) no-repeat center / cover;
+  //   height: 660px;
+  &__title {
+    padding-top: 180px;
+    text-align: center;
+    
+  }
+
+  &__title-text {
+    color: white;
+
+    &+& {
+      margin-bottom: 100px;
+      margin-top: 30px;
+      
+    }
+  }
+
+  &__title-button {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__angle {
+    color: white;
+    font-size: 2rem;
+    margin-top: 100px;
+    padding-bottom: 70px;
+
+   
+  }
+
+  &__angle-color {
+    color: rgb(255, 255, 255) !important;
+  }
+}

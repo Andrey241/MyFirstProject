@@ -1,0 +1,24 @@
+@mixin make-titles(
+  $sizes: $title-sizes,
+  $color: $title-color,
+  $font: $title-ff
+) {
+  .title {
+    color: $title-color;
+    font-family: $title-ff !important;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+      
+    @each $name, $value in $sizes {
+      &--#{$name} {
+        font-size: $value;
+      }
+    }
+
+    &--ghost {
+      color: $text-white;
+      margin: 20px 0;
+    }
+  }
+      
+}

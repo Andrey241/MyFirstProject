@@ -1,0 +1,47 @@
+.latest-work {
+  &__title {
+    text-align: center;
+    
+  }
+
+  &__title-text {
+    &+& {
+      margin: 36px 0 100px;
+      padding: 0 300px;
+    }
+  }
+
+  &__inner {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__carousel {
+    
+    height: 600px;
+    margin-bottom: 150px;
+    width: 100%;
+  }
+
+  &__card {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 800px;
+  }
+
+  &__img {
+    height: 100%;
+    max-width: none;
+  }
+    
+  
+}
+
+
+.latest-work__img {
+  object-fit: cover;
+}

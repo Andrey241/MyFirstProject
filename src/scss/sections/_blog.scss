@@ -1,0 +1,50 @@
+.blog {
+  background-color: #e4fdf9;
+  font-family: $main-font;
+
+  &__seo {
+    height: 403px;
+    overflow: hidden;
+    width: 571px;
+  }
+
+  &__seo-title {
+    font-size: 2rem;
+    font-weight: 700;
+   
+  }
+
+  &__seo-main {
+    margin-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  &__seo-content {
+    font-size: 1.8rem;
+    padding-bottom: 40px;
+  }
+
+  &__button {
+    font-weight: 700;
+    padding-bottom: 125px;
+    position: relative;
+    text-align: center;
+    z-index: 99;
+  }
+}
+
+.blog-title {
+  margin-bottom: 125px;
+  padding-top: 125px;
+  text-align: center;
+
+  &__title-text {
+    
+    padding: 0 200px;
+   
+
+    &+& {
+      margin-top: 40px; 
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.pricing-plan {
+  background-color: #f0f1f1;
+  font-family: $main-font;
+  letter-spacing: 3px;
+
+  &__title {
+    margin-bottom: 124px;
+    padding: 0 250px;
+    padding-top: 130px;
+    text-align: center;
+  }
+
+  &__inner-title {
+    color: white;
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  &__title-text {
+    margin-bottom: 20px;
+
+    &+& {
+      margin-bottom: 0;
+    }
+  }
+
+  &__inner {
+    background: rgb(57, 73, 171);
+    background: linear-gradient(175deg, rgba(57, 73, 171, 1) 0%, rgba(57, 73, 171, 1) 29%, rgba(255, 255, 255, 1) 30%);
+    box-shadow: 0 7px 10px rgba(black, 0.5);
+    margin-bottom: 125px;
+    text-align: center;
+  }
+
+  &__inner-content {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  &__inner-content-text {
+    border-bottom: 1px solid rgba(135, 130, 130, 0.801);
+    display: inline-block;
+    padding-bottom: 3px;
+    width: 160px;
+
+    &+& {
+      margin-top: 25px;
+
+    }
+  }
+
+  &__inner-icon {
+    padding-bottom: 60px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 99;
+  }
+
+  
+}

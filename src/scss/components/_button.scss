@@ -1,0 +1,41 @@
+.btn {
+  border-color: transparent;
+  
+
+  &--lg-w {
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    font-family: $secondary-font;
+    font-size: 2.2rem;
+    font-weight: 600;
+    font-weight: 700;
+    padding: 25px 0;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in;
+    width: 220px;
+
+    &:hover {
+      background-color: $hover-btn;
+      border-color: $hover-btn;
+      color: white;
+      letter-spacing: 2px;
+      
+    }
+  }
+
+  &__link {
+    // border: 2px solid white;
+    // color: white;
+    // font-family: $secondary-font;
+    // font-size: 1.5rem;
+    // font-weight: 700;
+    // letter-spacing: 3px;
+    // margin-top: 35px;
+    // padding: 20px 15px;
+    // text-transform: uppercase;
+
+    
+  }
+}
+

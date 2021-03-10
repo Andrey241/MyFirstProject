@@ -1,0 +1,25 @@
+.title {
+  font-family: $main-font;
+  
+
+  &--h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  &--h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  &--h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+
+  &--h5 {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+}
